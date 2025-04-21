@@ -9,5 +9,7 @@ namespace MyArtCollection.Web.Data
             : base(options)
         {
         }
+
+        public DbSet<Technique> Techniques { get; set; }
     }
 }
